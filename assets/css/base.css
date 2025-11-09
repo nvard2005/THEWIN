@@ -6,5 +6,5 @@
     --space-md: clamp(64px, 8vw, 80px);
     --space-lg: clamp(64px, 8vw, 96px);
     --space: clamp(64px, 10vw, 140px);
-    --ff-quicksand: "Quicksand", sans-serif;
+    --ff-hervetica: 'Helvetica', sans-serif;
 }

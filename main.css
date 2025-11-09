@@ -1,42 +1,39 @@
+/* Regular */
 @font-face {
-    font-family: 'Quicksand';
-    src: url('./assets/fonts/quicksand/Quicksand-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/helvetica/NimbusSanL-Reg.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
+/* Bold */
 @font-face {
-    font-family: 'Quicksand';
-    src: url('./assets/fonts/quicksand/Quicksand-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/helvetica/NimbusSanL-Bol.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
+/* Italic */
 @font-face {
-    font-family: 'Quicksand';
-    src: url('./assets/fonts/quicksand/Quicksand-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/helvetica/NimbusSanL-ReguIta.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
+/* Bold Italic */
 @font-face {
-    font-family: 'Quicksand';
-    src: url('./assets/fonts/quicksand/Quicksand-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/helvetica/NimbusSanL-BolIta.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
-@font-face {
-    font-family: 'Quicksand';
-    src: url('./assets/fonts/quicksand/Quicksand-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 
 * {
     scroll-behavior: smooth;
@@ -63,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     color: var(--v3-dark);
-    font-family: var(--ff-quicksand);
+    font-family: var(--ff-helvetica);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
